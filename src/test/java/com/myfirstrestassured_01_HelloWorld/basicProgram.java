@@ -1,3 +1,5 @@
+package com.myfirstrestassured_01_HelloWorld;
+
 import io.restassured.RestAssured;
 
 public class basicProgram {
