@@ -10,6 +10,11 @@
                     <include name="test_ng_negaitive_TC3" />
                 </methods>
             </class>
+            <class name="com.myfirstrestassured_02_TestNG_AllureReport.APITestingTestcase_NonBDD">
+                <methods>
+                    <include name="TC_01_NonBDD" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
