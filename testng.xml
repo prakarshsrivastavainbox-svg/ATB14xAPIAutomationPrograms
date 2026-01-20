@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/nigam/IdeaProjects/ATB14xAPIAutomationPrograms/src/test/java/com/myfirstrestassured_02_TestNG_AllureReport/APITestingTestcase.java">
+        <classes>
+            <class name="com.myfirstrestassured_02_TestNG_AllureReport.APITestingTestcase">
+                <methods>
+                    <include name="test_ng_positive_TC1" />
+                    <include name="test_ng_negative_TC2" />
+                    <include name="test_ng_negaitive_TC3" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
