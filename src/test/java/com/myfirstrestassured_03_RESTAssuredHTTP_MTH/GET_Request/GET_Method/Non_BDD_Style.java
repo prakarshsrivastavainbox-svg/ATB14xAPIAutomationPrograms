@@ -1,4 +1,4 @@
-package com.myfirstrestassured_03_RESTAssuredHTTP_MTH;
+package com.myfirstrestassured_03_RESTAssuredHTTP_MTH.GET_Request.GET_Method;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
