@@ -4,7 +4,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestNg_beforeRunTest {
+public class Test_Ng_03_beforeRunTest {
 
     @BeforeTest
     public void get_token(){

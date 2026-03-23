@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 /* These Grops Test cases are run with the help of Xml file*/
 
 
-public class TestNg_groups {
+public class Test_Ng_02groups {
     @Test(groups ={"smoke","san"})
     public void firstTC(){
         System.out.println("First TC1");

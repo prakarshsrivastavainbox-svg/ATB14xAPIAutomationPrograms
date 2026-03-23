@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.myfirstrestassured_04_TEST_NG_Advance_Examples.TestNg_groups">
+            <class name="com.myfirstrestassured_04_TEST_NG_Advance_Examples.Test_Ng_02groups">
             </class>
         </classes>
     </test>

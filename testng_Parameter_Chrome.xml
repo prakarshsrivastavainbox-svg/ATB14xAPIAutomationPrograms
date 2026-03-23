@@ -2,16 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/nigam/IdeaProjects/ATB14xAPIAutomationPrograms/src/test/java/com/myfirstrestassured_02_TestNG_AllureReport/APITestingTestcase.java">
-        <groups>
-            <run>
-                <include name="san">
-                </include>
-                <include name="reg">
-            </include>
-            </run>
-        </groups>
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.myfirstrestassured_04_TEST_NG_Advance_Examples.Test_Ng_02groups">
+            <class name="com.myfirstrestassured_04_TEST_NG_Advance_Examples.Test_Ng_05_Parameter">
             </class>
         </classes>
     </test>

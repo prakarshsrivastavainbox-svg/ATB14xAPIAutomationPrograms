@@ -3,7 +3,7 @@ package com.myfirstrestassured_04_TEST_NG_Advance_Examples;
 import org.testng.annotations.Test;
 //If we give negative priority it will be considered as 0, which is
 //by default the highest priority
-public class TestNG_Priority {
+public class Test_NG_01_Priority {
     @Test (priority = 1)
     public void firstTC(){
         System.out.println("First TC1");
