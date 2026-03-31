@@ -1,8 +1,5 @@
-//Command for Allure Report tun --> allure serve allure-results -- > This can be run in terminal
 package com.myfirstrestassured_05_Test_Validation;
-
-import io.qameta.allure.Description;
-import io.qameta.allure.Step;
+import static org.assertj.core.api.Assertions.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -11,14 +8,10 @@ import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
-import java.util.regex.Matcher;
-
-public class Test_01_RestAssured_Assertions {
+public class Test_03_RestAssured_AssertJ {
     RequestSpecification r;
     Response res;
     ValidatableResponse vr;
-@Description("Verify the request") // Basically done for allure reports
-@Step("Verify that the reuqest is working fine") // Basically done for allure reports
     @Test
     public void test_put_non_bdd(){
 
@@ -53,6 +46,8 @@ public class Test_01_RestAssured_Assertions {
         vr.statusCode(200);
         vr.body("Bookind_ID", Matchers.nullValue());
         vr.body("booking.firstname", Matchers.equalTo("Prakarsh"));
+// AssertJ is used to test multiple things in in just one steps like as below :-
+        assertThat(Bookind_ID).isNotIn().isNotBlank().isNotNull().isNotEmpty();
 
 
 
